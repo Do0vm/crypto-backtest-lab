@@ -57,7 +57,7 @@ IS = in-sample (2018–2022, used to pick parameters). OOS = out-of-sample (2023
 
 1. **In-sample performance flatters you.** The selected strategies' Sharpe ratios fell from as high as 1.97 in-sample to between 0.33 and 1.05 out-of-sample. On SOL, SMA crossover dropped from 1.97 to 0.79.
 2. **Buy-and-hold is hard to beat on risk-adjusted return.** Only 2 of 9 strategy/coin pairs beat it out-of-sample: BTC momentum (1.05 vs 0.99) and ETH RSI reversion (0.64 vs 0.48). Both margins are small enough to be luck.
-3. **Where the rules do help is drawdowns.** Being out of the market 35–85% of the time cut BTC's worst fall from -53% to -32% (SMA) and ETH's from -68% to -35% (RSI). For a fund with drawdown limits, that can matter more than raw return.
+3. **Where the rules do help is drawdowns.** Being out of the market 36–72% of the time cut BTC's worst fall from -53% to -32% (SMA) and ETH's from -68% to -35% (RSI). For a fund with drawdown limits, that can matter more than raw return.
 4. **The "best" parameters rarely stay best.** In the heatmap below, the top in-sample BTC setting (5/150) came only 5th out-of-sample, behind 5/50 (OOS Sharpe 1.27), which looked mediocre in-sample. Choosing from a broad region of decent settings is safer than chasing the single peak.
 
 ![BTC SMA heatmap](reports/BTCUSDT_sma_heatmap.png)
